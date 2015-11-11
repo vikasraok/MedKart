@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="in.medkart.pocketpharma.Activity.DrawerActivity">
+    <item
+        android:id="@+id/search_action"
+        android:actionLayout="@layout/actionbar_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/search"
+        android:showAsAction="always|collapseActionView"
+        android:title="Search"
+        android:visible="false"></item>
+    <item
+        android:id="@+id/badge"
+        android:actionLayout="@layout/actionbar_cart"
+        android:icon="@drawable/cart"
+        android:showAsAction="always"
+        android:title="Cart"></item>
+</menu>

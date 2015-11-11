@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.medkart.pocketpharma.Activity.LoginPage">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/logo_width"
+        android:layout_height="@dimen/logo_height"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/logo"
+        android:scaleType="fitCenter" />
+
+    <RelativeLayout
+        android:id="@+id/text_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/editText_height"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/editText_height"
+            android:layout_marginRight="@dimen/editText_height"
+            android:hint="@string/username"
+            android:inputType="textEmailAddress"></EditText>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/editText_height"
+            android:layout_below="@id/user_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/editText_height"
+            android:layout_marginRight="@dimen/editText_height"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/button_margin"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/sign_up_text"
+            android:textSize="@dimen/default_text_size_small" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/sign_in"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin"
+            android:layout_weight="0.5"
+            android:height="@dimen/button_height"
+            android:text="@string/sign_in" />
+
+        <Button
+            android:id="@+id/guest"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin"
+            android:layout_weight="0.5"
+            android:height="@dimen/button_height"
+            android:text="@string/Guest" />
+
+    </LinearLayout>
+</RelativeLayout>

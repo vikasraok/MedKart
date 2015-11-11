@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llDrawerItem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left|center_horizontal"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/nav_padding"
+    android:paddingBottom="@dimen/nav_padding"
+    >
+
+    <ImageView
+        android:id="@+id/menuIcon"
+        android:layout_width="@dimen/slider_menu_item_icon_size"
+        android:layout_height="@dimen/slider_menu_item_icon_size"
+        android:layout_marginRight="@dimen/slider_menu_item_icon_text_separation"
+        android:layout_marginLeft="@dimen/slider_menu_item_icon_text_separation"
+        />
+
+    <LinearLayout
+        android:id="@+id/llTxtPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/slider_menu_item_icon_text_separation"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:textColor="@color/text"
+            android:textSize="@dimen/default_text_size"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

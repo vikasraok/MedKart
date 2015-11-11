@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">MedKart</string>
+    <string name="username"><i>User Name</i></string>
+    <string name="password"><i>Password</i></string>
+    <string name="phone_no">Phone No.</string>
+    <string name="email">E-mail</string>
+    <string name="re_enter_password">Re-enter password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="set_pin">Set pin</string>
+    <string name="enter_pin">Enter pin code</string>
+    <string name="checkout">Checkout</string>
+    <string name="Guest">Guest</string>
+    <string name="wrong_cred">Wrong Credentials</string>
+    <string name="search">Search</string>
+    <string name="quick_order">Quick Order</string>
+    <string name="sign_up_text">Not registered yet? <b><u>Sign Up</u></b></string>
+    <string name="capture_prescription">Capture prescription</string>
+    <string name="send_prescription">Send prescription</string>
+    <string name="share_to">Share to:</string>
+    <string name="about_us">About us:</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="price"><b>MRP: </b>Id has zril epicuri\n<b>Discounted Price: </b>justo honestatis</string>
+    <string name="med_info"><b> Pro ea regione:</b>\nsuscipiantur, justo honestatis in qui, nam quas delectus fabellas et. Has ut odio propriae reprehendunt. Ut vel graeci alienum accumsan, vide postea eu his, qui an dicta quaestio partiendo. Aliquip adipiscing sea at, minim solet sea id.\n
+<b>Cu per scripta:</b>\nnusquam minimum, ut facilis alienum eloquentiam est. Vitae nonumes adversarium ad nec, mei ei esse duis consulatu. Prima recteque intellegebat ut mel, mea atomorum principes assueverit te.\n <b>Cum nulla:</b>\nerrem ceteros ei. Ad nam possit saperet appellantur.</string>
+    <string name="about_us_text">\tLorem ipsum dolor sit amet, eu sale velit mentitum duo, an unum aeque legimus pro, ad has laudem aliquam nusquam. Vel no augue apeirian. Pro elit consul doming te, dicat dissentiet ea qui. Pro in voluptua delectus, sea corrumpit persequeris te, erant neglegentur delicatissimi id eam. Viderer iracundia necessitatibus ea usu, no persius prodesset eum, has eu detracto philosophia.\n
+
+ \tPer sale utamur expetenda ad, pro at augue libris oportere. An his augue tantas aliquando, vel an wisi habeo tractatos. Id virtute placerat aliquando has, usu bonorum iudicabit ne. Id esse reprimique mea, at nam melius elaboraret.\n\n
+
+\tAt ius graecis nusquam.</string>
+    <string name="quick_order_text">Does your doctor write in Chinese? If yes, then click a picture and send it to us, we\'ll have our expert translators make sense of it for you!</string>
+
+    <string-array name="menu_item_array">
+        <item>Home</item>
+        <item>Favourite</item>
+        <item>Set Location</item>
+        <item>Share with friends</item>
+        <item>Contact us</item>
+        <item>Sign Up</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/home</item>
+        <item>@drawable/favourite</item>
+        <item>@drawable/set_location</item>
+        <item>@drawable/share</item>
+        <item>@drawable/contact_us</item>
+        <item>@drawable/sign_up</item>
+    </array>
+
+    <array name="grid_view_images">
+        <item>@drawable/image1</item>
+        <item>@drawable/image2</item>
+        <item>@drawable/image3</item>
+        <item>@drawable/image4</item>
+        <item>@drawable/image5</item>
+        <item>@drawable/image6</item>
+        <item>@drawable/image7</item>
+        <item>@drawable/image8</item>
+        <item>@drawable/image9</item>
+        <item>@drawable/image10</item>
+        <item>@drawable/image11</item>
+        <item>@drawable/image12</item>
+        <item>@drawable/image13</item>
+        <item>@drawable/image14</item>
+        <item>@drawable/image15</item>
+        <item>@drawable/image16</item>
+        <item>@drawable/image17</item>
+        <item>@drawable/image18</item>
+    </array>
+
+    <string-array name="grid_view_array">
+        <item>Has audiam</item>
+        <item>Deseruisse </item>
+        <item>Viris vivendum</item>
+        <item>Mnesarchum </item>
+        <item>Iracundia </item>
+        <item>Putant fastidii</item>
+        <item>Sonet facilis</item>
+        <item>Mea postea</item>
+        <item>Habeo posse</item>
+        <item>Sadipscing</item>
+        <item>Dolor libris</item>
+        <item>Singulis scripserit</item>
+        <item>Saepe</item>
+        <item>Facilisis definitionem</item>
+        <item>Rebum diceret</item>
+        <item>Suscipit voluptatum</item>
+        <item>Vivendo </item>
+        <item>Propriae </item>
+    </string-array>
+
+    <string name="share_twitter">Some catchy phrase #fancyhashtag</string>
+    <string name="share_facebook">Some blah blah phrase again #fancyhastag https://link to youy fb page</string>
+</resources>

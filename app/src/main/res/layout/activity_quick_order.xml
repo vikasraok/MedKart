@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@color/scrimcolor"
+        android:padding="@dimen/padding_small"
+        android:text="@string/quick_order_text"
+        android:textColor="@color/text"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/default_text_size"
+        android:id="@+id/description_qo"
+        />
+
+    <EditText
+        android:id="@+id/user_name_qo"
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/editText_height"
+        android:layout_marginLeft="@dimen/editText_height"
+        android:layout_height="@dimen/editText_height"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/description_qo">
+    </EditText>
+
+    <EditText
+        android:id="@+id/phone_no_qo"
+        android:layout_below="@+id/user_name_qo"
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/editText_height"
+        android:layout_marginLeft="@dimen/editText_height"
+        android:layout_height="@dimen/editText_height"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/phone_no"
+        android:inputType="phone">
+    </EditText>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/prescription"
+        android:layout_marginRight="@dimen/padding_small"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/padding_small"
+        android:layout_marginBottom="@dimen/button_bar_height"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_bar_height"
+        android:id="@+id/capture"
+        android:enabled="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/default_text_size_small"
+        android:layout_margin="@dimen/button_margin"
+        android:text="@string/capture_prescription"/>
+
+</RelativeLayout>

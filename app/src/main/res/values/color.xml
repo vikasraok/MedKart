@@ -1,0 +1,12 @@
+<resources>
+    <color name="text">#000</color>
+    <color name="text_white">#fff</color>
+    <color name="error">#DC5C4B </color>
+    <color name="normal">@android:color/holo_blue_light</color>
+    <color name="color_preloader_start">#00f3f3f3</color>
+    <color name="color_preloader_center">#00f3f3f3</color>
+    <color name="color_preloader_end">#000</color>
+    <color name="drawer_text_color">#fff</color>
+    <color name="scrimcolor">#00000000</color>
+    <color name="list_background">#303030</color>
+</resources>
